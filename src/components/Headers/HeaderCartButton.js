@@ -7,7 +7,7 @@ const HeaderCartButton = props => {
         <button className={classes.button}>
             <span className={classes.icon}><CartIcon /></span>
             <span>Your Cart</span>
-            <spam className={classes.badge}>0</spam>
+            <spam className={classes.badge}> 0</spam>
         </button>
     </React.Fragment>
 }
