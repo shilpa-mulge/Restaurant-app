@@ -1,5 +1,6 @@
 import React from "react"
 import classes from './MealSingle.module.css';
+import MealsForm from "./MealsForm";
 const MealsSingle = props => {
     const price = `$${props.price}`;
     return <React.Fragment>
@@ -12,7 +13,9 @@ const MealsSingle = props => {
                 <div className={classes.price}>{price}</div>
 
             </div>
-
+            <div>
+                <MealsForm />
+            </div>
 
         </li>
     </React.Fragment>
