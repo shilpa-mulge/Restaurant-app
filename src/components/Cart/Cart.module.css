@@ -4,10 +4,12 @@
     padding: 0;
     max-height: 20rem;
     overflow: auto;
-    background-color: aliceblue;
+    background-color: rgb(195, 200, 204);
 
   }
-  
+  .cart-items li{
+    color: rgb(20, 138, 77);
+  }
   .total {
     display: flex;
     justify-content: space-between;

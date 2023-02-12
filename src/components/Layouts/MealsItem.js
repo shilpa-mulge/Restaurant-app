@@ -29,8 +29,9 @@ const MealsItem = props => {
             price: 18.99,
         },
     ];
+
     const items = DUMMY_MEALS.map((meal) => {
-        return <MealsSingle key={meal.id} name={meal.name} description={meal.description} price={meal.price} />
+        return <MealsSingle key={meal.id} id={meal.id} name={meal.name} description={meal.description} price={meal.price} />
     })
     return (
         <React.Fragment>
