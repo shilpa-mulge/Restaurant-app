@@ -10,7 +10,7 @@ const MealsForm = props => {
                 min: '1',
                 max: '5',
                 step: '1',
-                deffaultValue: '1'
+                defaultValue: '1'
             }} />
             <div className={classes.button}>
                 <button type='submit'>+Add</button>

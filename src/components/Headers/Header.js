@@ -2,8 +2,10 @@ import React from 'react';
 import classes from './Header.module.css';
 import image from '../../assets/img.jpg';
 import HeaderCartButton from './HeaderCartButton';
+import Cart from '../Cart/Cart';
 const Header = props => {
     return <React.Fragment>
+        <Cart />
         <header className={classes.header}>
             <h2>Restaurent Meals</h2>
             <HeaderCartButton />
