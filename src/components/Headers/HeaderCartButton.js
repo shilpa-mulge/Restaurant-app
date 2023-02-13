@@ -5,7 +5,6 @@ import CartContext from "../../Store/cart-context";
 
 const HeaderCartButton = props => {
     const ctx = useContext(CartContext);
-
     let numberOfCartItem = 0;
     ctx.items.forEach(item => {
         numberOfCartItem = numberOfCartItem + Number(item.amount);
